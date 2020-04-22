@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="215px" height="190px" viewBox="0 0 215 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / ic_studies_06</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="215" height="190"></rect>
+        <linearGradient x1="47.6974423%" y1="0%" x2="51.3358339%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2DD6BC" offset="0%"></stop>
+            <stop stop-color="#00BABC" stop-opacity="0.4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="56.3083019%" y1="100%" x2="39.1264707%" y2="-1.38777878e-15%" id="linearGradient-4">
+            <stop stop-color="#2DD6BC" offset="0%"></stop>
+            <stop stop-color="#00BABC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-/-ic_studies_06" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-7" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(27.000000, 9.000000)">
+                    <polygon id="Path-8" fill="url(#linearGradient-3)" transform="translate(22.457325, 82.081703) scale(-1, 1) translate(-22.457325, -82.081703) " points="42.7272777 2.19813002 42.7272777 161.851924 0.619644981 141.132913 -0.619644981 143.651545 45.5342952 166.361537 45.5342952 -2.19813002 -0.590559387 19.1961085 0.590559387 21.7425386"></polygon>
+                    <polygon id="Path-8" fill="url(#linearGradient-3)" points="157.814997 161.851924 115.707364 141.132913 114.468074 143.651545 160.622015 166.361537 160.622015 -2.19813002 114.49716 19.1961085 115.678279 21.7425386 157.814997 2.19813002"></polygon>
+                    <path d="M116.959064,18.5924426 L116.959064,144.391891 L42.1052632,144.391891 L42.1052632,18.5924426 L116.959064,18.5924426 Z M44.9122807,21.3994602 L44.9122807,141.584874 L114.152047,141.584874 L114.152047,21.3994602 L44.9122807,21.3994602 Z" id="Rectangle-Copy-8" fill="url(#linearGradient-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

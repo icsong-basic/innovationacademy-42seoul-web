@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="164px" viewBox="0 0 200 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / ic_studies_03</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="200" height="164"></rect>
+        <linearGradient x1="19.2885526%" y1="0%" x2="67.8173136%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2DD6BC" offset="0%"></stop>
+            <stop stop-color="#00BABC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-/-ic_studies_03" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-3" mask="url(#mask-2)" fill="url(#linearGradient-3)" fill-rule="nonzero">
+                <g transform="translate(16.000000, 23.000000)">
+                    <path d="M60,0 C93.137085,0 120,26.862915 120,60 C120,93.137085 93.137085,120 60,120 C26.862915,120 0,93.137085 0,60 C0,26.862915 26.862915,0 60,0 Z M60,3 C28.5197693,3 3,28.5197693 3,60 C3,91.4802307 28.5197693,117 60,117 C91.4802307,117 117,91.4802307 117,60 C117,28.5197693 91.4802307,3 60,3 Z" id="Oval-Copy-14"></path>
+                    <path d="M157,0 C190.137085,0 217,26.862915 217,60 C217,93.137085 190.137085,120 157,120 C123.862915,120 97,93.137085 97,60 C97,26.862915 123.862915,0 157,0 Z M157,3 C125.519769,3 100,28.5197693 100,60 C100,91.4802307 125.519769,117 157,117 C188.480231,117 214,91.4802307 214,60 C214,28.5197693 188.480231,3 157,3 Z" id="Oval-Copy-15"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

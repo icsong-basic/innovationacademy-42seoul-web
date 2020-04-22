@@ -1,0 +1,87 @@
+@media (max-width: 1180px) {
+  $multiplier: 0.9;
+  .link-btn {
+    width: $multiplier * 170px;
+    margin-right: $multiplier * 24px;
+    padding: 16px * $multiplier 48px * $multiplier $multiplier * 16px 0;
+    background-position: 123px * $multiplier $multiplier * 16px;
+    &.long {
+      width: 210px * $multiplier;
+      background-position-x: 163px * $multiplier;
+    }
+    &.eng {
+      width: 300px * $multiplier;
+      background-position-x: 253px * $multiplier;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  $multiplier: 0.8;
+  .link-btn {
+    width: $multiplier * 170px;
+    margin-right: $multiplier * 24px;
+    padding: 16px * $multiplier 48px * $multiplier $multiplier * 16px 0;
+    background-position: 123px * $multiplier $multiplier * 16px;
+    &.long {
+      width: 210px * $multiplier;
+      background-position-x: 163px * $multiplier;
+    }
+    &.eng {
+      width: 300px * $multiplier;
+      background-position-x: 253px * $multiplier;
+    }
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  h1 {
+    font-size: toMobile(24);
+    margin: toMobile(24) 0 toMobile(8);
+  }
+
+  .max-width-section {
+    max-width: none;
+    padding-left: toMobile(20);
+    padding-right: toMobile(20);
+  }
+
+  .default-page-padding {
+    padding-bottom: toMobile(88);
+    padding-top: $mobile-appbar-height;
+  }
+  .default-page-padding-top {
+    padding-top: $mobile-appbar-height;
+  }
+
+  .link-btn {
+    font-size: toMobile(13);
+    letter-spacing: -#{toMobile(0.41)};
+    width: toMobile(124);
+    margin-right: toMobile(16);
+    padding: toMobile(10) toMobile(38) toMobile(11) 0;
+    background-size: toMobile(21) toMobile(21);
+    background-position: toMobile(90) toMobile(10);
+    margin-bottom: toMobile(10);
+    &.long {
+      width: toMobile(174);
+      background-position-x: toMobile(140);
+    }
+    &.eng {
+      width: toMobile(244);
+      background-position-x: toMobile(210);
+    }
+  }
+
+  button {
+    font-size: toMobile(13);
+    letter-spacing: -#{toMobile(0.41)};
+    padding: toMobile(10) toMobile(38) toMobile(11);
+  }
+
+  img.logo {
+    width: toMobile(56);
+    &.big {
+      width: toMobile(115);
+    }
+  }
+}

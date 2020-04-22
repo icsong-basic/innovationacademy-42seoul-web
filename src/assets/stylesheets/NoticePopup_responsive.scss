@@ -1,0 +1,25 @@
+@media (max-width: #{$mobile-width}) {
+  .notice-popup {
+    .text {
+      padding: toMobile(20);
+      width: toMobile(320);
+      font-size: toMobile(13);
+      max-height: calc(100vh - #{toMobile(120)});
+      overflow: auto;
+    }
+    .buttons {
+      display: flex;
+      button {
+        width: 100%;
+        height: toMobile(50);
+        padding-left: 0;
+        padding-right: 0;
+        font-size: toMobile(15);
+        &.black {
+          background-color: #bdbdbd;
+          color: #000;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#hamburger-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #fff;
+  z-index: 102;
+  display: none;
+  overflow-y: auto;
+  &.opened {
+    display: block;
+    animation: fadeIn forwards 0.3s;
+  }
+  > div {
+    position: relative;
+    min-height: 100%;
+  }
+  .appbar {
+    height: $mobile-appbar-height;
+    .logo {
+      margin-left: toMobile(20);
+      margin-top: toMobile(17);
+    }
+    .close-btn {
+      float: right;
+      cursor: pointer;
+      width: $mobile-appbar-height;
+      height: $mobile-appbar-height;
+      background-image: url("../images/ic-close.svg");
+      background-repeat: no-repeat;
+      background-position: toMobile(12) toMobile(16);
+      background-size: toMobile(24) toMobile(24);
+    }
+  }
+
+  .gnb {
+    margin-top: toMobile(8);
+    padding-left: toMobile(20);
+    a:not(.link-btn) {
+      display: block;
+      font-family: Montserrat;
+      font-size: toMobile(32);
+      font-weight: 800;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000;
+      margin-bottom: toMobile(16);
+    }
+    a.link-btn {
+      margin-top: toMobile(16);
+      margin-bottom: toMobile(200);
+    }
+  }
+
+  footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+  }
+}

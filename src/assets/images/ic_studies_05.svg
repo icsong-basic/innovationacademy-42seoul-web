@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="265px" height="170px" viewBox="0 0 265 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / ic_studies_05</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="265" height="170"></rect>
+        <linearGradient x1="19.2885526%" y1="0%" x2="67.8173136%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2DD6BC" offset="0%"></stop>
+            <stop stop-color="#00BABC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0517365%" y1="100%" x2="49.9108226%" y2="-1.38777878e-15%" id="linearGradient-4">
+            <stop stop-color="#2DD6BC" offset="0%"></stop>
+            <stop stop-color="#00BABC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-/-ic_studies_05" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-6" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(22.000000, 11.000000)">
+                    <path d="M184,0 C196.702549,0 207,10.2974508 207,23 C207,35.7025492 196.702549,46 184,46 C171.297451,46 161,35.7025492 161,23 C161,10.2974508 171.297451,0 184,0 Z M184,3 C172.954305,3 164,11.954305 164,23 C164,34.045695 172.954305,43 184,43 C195.045695,43 204,34.045695 204,23 C204,11.954305 195.045695,3 184,3 Z" id="Oval-Copy" fill="url(#linearGradient-3)"></path>
+                    <path d="M36,7 C55.882251,7 72,23.117749 72,43 C72,62.882251 55.882251,79 36,79 C16.117749,79 0,62.882251 0,43 C0,23.117749 16.117749,7 36,7 Z M36,10 C17.7746033,10 3,24.7746033 3,43 C3,61.2253967 17.7746033,76 36,76 C54.2253967,76 69,61.2253967 69,43 C69,24.7746033 54.2253967,10 36,10 Z" id="Oval-Copy-7" fill="url(#linearGradient-3)"></path>
+                    <path d="M139,48 C151.702549,48 162,58.2974508 162,71 C162,83.7025492 151.702549,94 139,94 C126.297451,94 116,83.7025492 116,71 C116,58.2974508 126.297451,48 139,48 Z M139,51 C127.954305,51 119,59.954305 119,71 C119,82.045695 127.954305,91 139,91 C150.045695,91 159,82.045695 159,71 C159,59.954305 150.045695,51 139,51 Z" id="Oval-Copy-2" fill="url(#linearGradient-3)"></path>
+                    <path d="M184,96 C196.702549,96 207,106.297451 207,119 C207,131.702549 196.702549,142 184,142 C171.297451,142 161,131.702549 161,119 C161,106.297451 171.297451,96 184,96 Z M184,99 C172.954305,99 164,107.954305 164,119 C164,130.045695 172.954305,139 184,139 C195.045695,139 204,130.045695 204,119 C204,107.954305 195.045695,99 184,99 Z" id="Oval-Copy-3" fill="url(#linearGradient-3)"></path>
+                    <path d="M229,48 C241.702549,48 252,58.2974508 252,71 C252,83.7025492 241.702549,94 229,94 C216.297451,94 206,83.7025492 206,71 C206,58.2974508 216.297451,48 229,48 Z M229,51 C217.954305,51 209,59.954305 209,71 C209,82.045695 217.954305,91 229,91 C240.045695,91 249,82.045695 249,71 C249,59.954305 240.045695,51 229,51 Z" id="Oval-Copy-4" fill="url(#linearGradient-3)"></path>
+                    <polygon id="Path-8-Copy-2" fill="url(#linearGradient-4)" points="37.5 133 37.5 77.3270789 34.5 77.3270789 34.5 133"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

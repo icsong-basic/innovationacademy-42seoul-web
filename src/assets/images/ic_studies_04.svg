@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="265px" height="195px" viewBox="0 0 265 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / ic_studies_04</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="265" height="195"></rect>
+        <linearGradient x1="29.7791767%" y1="72.5506725%" x2="65.7543202%" y2="32.8673409%" id="linearGradient-3">
+            <stop stop-color="#2DD6BC" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#00BABC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="93.5529331%" y1="41.6857328%" x2="-6.44706694%" y2="58.3142672%" id="linearGradient-4">
+            <stop stop-color="#2DD6BC" offset="0%"></stop>
+            <stop stop-color="#00BABC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-/-ic_studies_04" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-4" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(25.000000, 10.000000)">
+                    <path d="M82,125 L82,173 L0,173 L0,125 L82,125 Z M79,128 L3,128 L3,170 L79,170 L79,128 Z" id="Rectangle" fill="url(#linearGradient-3)"></path>
+                    <path d="M144,63 L144,111 L62,111 L62,63 L144,63 Z M141,66 L65,66 L65,108 L141,108 L141,66 Z" id="Rectangle-Copy-6" fill="url(#linearGradient-4)"></path>
+                    <path d="M216,0 L216,48 L134,48 L134,0 L216,0 Z M213,3 L137,3 L137,45 L213,45 L213,3 Z" id="Rectangle-Copy-7" fill="url(#linearGradient-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

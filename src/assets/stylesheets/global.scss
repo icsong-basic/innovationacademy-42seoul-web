@@ -1,0 +1,7 @@
+$mint: #01babc;
+$mobile-width-number: 768;
+$mobile-width: #{$mobile-width-number}px;
+$mobile-appbar-height: toMobile(56);
+@function toMobile($size) {
+  @return #{$size * 100 / 360}vw;
+}

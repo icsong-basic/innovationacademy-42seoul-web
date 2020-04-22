@@ -1,0 +1,99 @@
+@media (max-width: #{$mobile-width}) {
+  .apply-page {
+    .dday-timer {
+      .title {
+        margin-bottom: toMbile(40);
+        font-size: toMobile(24);
+        .dday {
+          margin-right: toMobile(27);
+        }
+      }
+      .timer {
+        margin-bottom: toMobile(140);
+        .time-unit {
+          width: auto;
+          font-size: toMobile(40);
+          margin: 0 toMobile(13);
+          > p {
+            font-size: toMobile(14);
+          }
+        }
+
+        .colon {
+          $width: toMobile(6);
+          width: $width;
+          > span {
+            width: $width;
+            height: $width;
+            &:nth-child(1) {
+              margin-top: toMobile(9);
+            }
+            &:nth-child(2) {
+              margin-top: toMobile(8);
+            }
+          }
+        }
+      }
+    }
+
+    .apply-form {
+      width: auto;
+      h2 {
+        font-size: toMobile(20);
+      }
+      .title {
+        margin-top: toMobile(20);
+        font-size: toMobile(15);
+      }
+      .timeline {
+        display: block;
+        border: none;
+        margin-bottom: 0;
+        .half {
+          width: 50%;
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          font-size: toMobile(18);
+        }
+        > div {
+          box-sizing: border-box;
+          padding-top: toMobile(16);
+          height: toMobile(120);
+          text-align: left;
+          flex-direction: row;
+          &:not(:nth-last-of-type(1)) {
+            margin-right: 0;
+            margin-bottom: toMobile(16);
+          }
+          > .period {
+            vertical-align: top;
+            flex: none;
+            width: toMobile(168);
+            height: auto;
+            font-size: toMobile(20);
+            align-items: flex-start;
+            letter-spacing: -#{toMobile(0.63)};
+          }
+          > .description {
+            top: 0;
+            font-size: toMobile(18);
+            line-height: 1.56;
+            vertical-align: top;
+            justify-content: start;
+            align-items: flex-start;
+            text-align: left;
+          }
+          > .right-arrow {
+            top: initial;
+            width: toMobile(32);
+            height: toMobile(32);
+            right: initial;
+            bottom: -#{toMobile(16)};
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+  }
+}

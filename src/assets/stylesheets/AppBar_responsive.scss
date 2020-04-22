@@ -1,0 +1,50 @@
+@import "./global.scss";
+@media (max-width: 1180px) {
+  #appbar {
+    .gnb a.apply-btn {
+      padding-top: 14px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #appbar {
+    .gnb a.apply-btn {
+      padding-top: 16px;
+    }
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  #appbar {
+    height: $mobile-appbar-height;
+    img.logo {
+      margin-left: toMobile(20);
+      margin-top: toMobile(17);
+    }
+    .page-name {
+      font-family: Montserrat;
+      font-size: toMobile(20);
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      position: absolute;
+      top: toMobile(16);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .hamburger-btn {
+      float: right;
+      width: $mobile-appbar-height;
+      height: $mobile-appbar-height;
+      cursor: pointer;
+      background-image: url("../images/ic-menu.svg");
+      background-size: toMobile(24) toMobile(24);
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+}

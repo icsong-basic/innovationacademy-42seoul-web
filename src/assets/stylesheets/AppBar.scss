@@ -1,0 +1,83 @@
+@import "./global.scss";
+@import "./HamburgerMenu.scss";
+
+$height: 5.6rem;
+#appbar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: $height;
+  z-index: 101;
+  transition: background-color 0.5s;
+  will-change: background-color;
+  &:not(.top) {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  img.logo {
+    float: left;
+    margin-left: 7.2rem;
+    margin-top: 1.5rem;
+  }
+  .gnb {
+    float: right;
+    a {
+      display: inline-block;
+      font-family: Montserrat;
+      font-size: 1.6rem;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      padding: 1.6rem;
+      margin-top: 0.3rem;
+      vertical-align: top;
+      &.active {
+        font-family: Montserrat;
+        color: $mint;
+        text-decoration: underline;
+      }
+    }
+    a.apply-btn {
+      $apply-btn-width: 17rem;
+      color: #000;
+      background-color: $mint;
+      font-family: Noto Sans KR, sans-serif;
+      font-size: 1.6rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.051rem;
+      padding: 0;
+      padding-top: 1.3rem;
+      box-sizing: border-box;
+      margin-top: 0;
+      margin-left: 3.2rem;
+      width: $apply-btn-width;
+      height: $height;
+      text-align: right;
+      padding-right: 5.3rem;
+      background-image: url("../images/ic-arrow-small-black.svg");
+      background-repeat: no-repeat;
+      background-position: 12.3rem 1.6rem;
+      > * {
+        vertical-align: middle;
+      }
+    }
+  }
+  &.invert .gnb {
+    a.active {
+      color: #000;
+    }
+    a.apply-btn {
+      background-color: #000;
+      background-image: url("../images/ic-arrow-small-blue.svg");
+      color: #fff;
+    }
+  }
+}
+
+@import "./AppBar_responsive.scss";

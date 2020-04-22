@@ -1,0 +1,19 @@
+{
+  "short_name": "42 SEOUL",
+  "name": "42 SEOUL",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.jpg",
+      "type": "image/png",
+      "sizes": "1200x630"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}

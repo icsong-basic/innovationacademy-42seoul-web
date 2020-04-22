@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,800|Noto+Sans+KR:400,500,700&display=swap");
+@import "./global.scss";
+@import "./Apply.scss";
+@import "./NoticePopup.scss";
+@import "./Admission.scss";
+@import "./About.scss";
+@import "./AppBar.scss";
+@import "./Faq.scss";
+@import "./Home.scss";
+@import "./Studies.scss";
+@import "./News.scss";
+@import "./Footer.scss";
+@import "./Quill.scss";
+@import "./ApplyForm191201.scss";
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  font-size: 10px;
+}
+@media (max-width: 1180px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5.6rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin: 5.6rem 0 4rem;
+}
+
+.max-width-section {
+  max-width: 118rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.default-page-padding {
+  padding-bottom: 14rem;
+  padding-top: 5.6rem;
+}
+.default-page-padding-top {
+  padding-top: 5.6rem;
+}
+
+.color-white {
+  color: #fff !important;
+}
+
+.color-mint {
+  color: $mint;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.link-btn {
+  display: inline-block;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.051rem;
+  color: #000;
+  background-color: #fff;
+  width: 17rem;
+  box-sizing: border-box;
+  margin-right: 2.4rem;
+  text-align: right;
+  padding: 1.6rem 4.8rem 1.6rem 0;
+  background-image: url("../images/ic-arrow-small-blue.svg");
+  background-repeat: no-repeat;
+  background-position: 12.3rem 1.6rem;
+  cursor: pointer;
+  &.mint {
+    color: #000;
+    background-color: $mint;
+    background-image: url("../images/ic-arrow-small-black.svg");
+  }
+  &.black {
+    color: #fff;
+    background-color: #000;
+  }
+  &.long {
+    width: 21rem;
+    background-position-x: 16.3rem;
+  }
+  &.eng {
+    width: 30rem;
+    background-position-x: 25.3rem;
+  }
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+button {
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.051rem;
+  color: #000;
+  background-color: $mint;
+  box-sizing: border-box;
+  padding: 1.6rem 4.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: #{$mobile-width-number + 1px}) {
+  .only-mobile {
+    display: none !important;
+  }
+}
+@media (max-width: #{$mobile-width}) {
+  .only-pc {
+    display: none !important;
+  }
+}
+
+img.logo {
+  width: 6.5rem;
+  &.big {
+    width: 26.8rem;
+  }
+}
+@import "./App_responsive.scss";

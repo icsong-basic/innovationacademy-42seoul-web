@@ -1,0 +1,136 @@
+@media (max-width: 1180px) {
+  .studies-page > section.topics {
+    $height: 80rem;
+    height: $height;
+    background-size: auto $height;
+  }
+}
+
+@media (max-width: 1024px) {
+  .studies-page > section.growth img {
+    width: calc(100% - 4rem);
+    display: block;
+    margin: auto;
+  }
+
+  .studies-page > section.topics {
+    $height: 60rem;
+    height: $height;
+    background-size: auto $height;
+  }
+
+  .studies-page > section.topics {
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  .studies-page {
+    background: url("../images/img-mobile-studies-title.png") no-repeat;
+    background-position-y: toMobile(124);
+    background-position-x: center;
+    background-size: toMobile(320) auto;
+    h2 {
+      font-size: toMobile(18);
+      line-height: normal;
+      letter-spacing: -#{toMobile(0.57)};
+    }
+    > section:nth-child(1) {
+      > h1:nth-child(1) {
+        margin-bottom: toMobile(3);
+      }
+      > h1:nth-child(2) {
+        margin: 0 0 toMobile(20);
+        font-size: toMobile(24);
+      }
+      > p {
+        opacity: 0.87;
+        font-size: toMobile(14);
+        line-height: 1.71;
+        margin: 0 0 toMobile(64);
+      }
+      > .grid {
+        position: relative;
+        margin-bottom: 0;
+        > div {
+          display: block;
+          width: 100%;
+          height: toMobile(560);
+          margin-right: 0;
+          margin-bottom: toMobile(24);
+          &:nth-child(n + 4) {
+            margin-bottom: toMobile(24);
+          }
+          &:nth-last-child(1) {
+            margin-bottom: toMobile(60);
+          }
+          h3 {
+            font-size: 2.4rem;
+            letter-spacing: -#{toMobile(0.76)};
+            left: toMobile(24);
+            top: toMobile(56);
+          }
+          p {
+            font-size: toMobile(14);
+            top: toMobile(336);
+            padding-left: toMobile(24);
+            padding-right: toMobile(24);
+          }
+          &:nth-child(1) {
+            background-position-y: toMobile(98);
+            background-size: auto toMobile(220);
+            p {
+              top: toMobile(308);
+            }
+          }
+          &:nth-child(2) {
+            background-position-y: toMobile(150);
+            background-size: auto toMobile(148);
+            p {
+              top: toMobile(308);
+            }
+          }
+          &:nth-child(3) {
+            background-position-y: toMobile(138);
+            background-size: auto toMobile(164);
+          }
+          &:nth-child(4) {
+            background-position-y: toMobile(117);
+            background-size: auto toMobile(195);
+          }
+          &:nth-child(5) {
+            background-position-y: toMobile(144);
+            background-size: auto toMobile(170);
+          }
+          &:nth-child(6) {
+            background-position-y: toMobile(138);
+            background-size: auto toMobile(190);
+          }
+        }
+      }
+    }
+    > section.topics {
+      background: url("../images/img-mobile-studies-01.jpg") no-repeat;
+      height: toMobile(540);
+      background-position-x: center;
+      background-size: auto toMobile(540);
+      box-sizing: border-box;
+      padding-top: toMobile(44);
+    }
+    > section.growth {
+      padding-top: toMobile(68);
+      height: toMobile(556);
+      h2 {
+        margin-bottom: toMobile(16);
+      }
+      p {
+        opacity: 0.87;
+        font-size: toMobile(14);
+        margin: 0 0 toMobile(64);
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

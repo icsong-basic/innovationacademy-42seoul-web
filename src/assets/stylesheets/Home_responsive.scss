@@ -1,0 +1,104 @@
+@media (max-width: 1180px) {
+  #fullpage .section .container h1 {
+    max-width: calc(100% - 10rem);
+  }
+  #fp-nav.fp-right {
+    right: 9.7rem !important;
+  }
+
+  #home-scroll-arrow {
+    right: 6.1rem;
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  #fullpage {
+    .section {
+      .container {
+        padding: 0 toMobile(20);
+        margin: auto;
+        h1 {
+          font-size: toMobile(22);
+          line-height: normal;
+          letter-spacing: -#{toMobile(0.13)};
+          margin: 0 0 toMobile(44);
+          max-width: none;
+        }
+        h2 {
+          font-size: toMobile(28);
+          line-height: normal;
+          letter-spacing: -#{toMobile(0.89)};
+          margin: 0 0 toMobile(24);
+        }
+        p {
+          font-size: toMobile(15);
+          line-height: 1.73;
+          letter-spacing: -#{toMobile(0.48)};
+          margin: 0 0 toMobile(46);
+          opacity: 0.87;
+        }
+      }
+    }
+
+    .section1 {
+      background-image: url("../images/img-main-01.svg");
+      background-size: toMobile(319);
+      .container {
+        position: absolute;
+        left: 0;
+        top: toMobile(317);
+        img {
+          position: absolute;
+          left: auto;
+          width: toMobile(115);
+          top: -#{toMobile(92)};
+        }
+      }
+    }
+    .section2 {
+      background-image: url("../images/img-mobile-main-02.jpg");
+    }
+    .section3 {
+      background-image: url("../images/img-mobile-main-03.jpg");
+    }
+    .section4 {
+      background-image: url("../images/img-mobile-main-04.jpg");
+    }
+    .section5 {
+      background-image: url("../images/img-mobile-main-05.jpg");
+      p {
+        margin: 0 0 6.4rem;
+      }
+    }
+  }
+
+  #fp-nav.fp-right {
+    right: toMobile(28) !important;
+    top: toMobile(132);
+    $circle-width: toMobile(8);
+    ul {
+      li:hover a span,
+      li:hover a.active span,
+      li a.active span {
+        width: $circle-width;
+        height: $circle-width;
+        margin: 0;
+      }
+      li {
+        width: $circle-width;
+        height: $circle-width;
+        margin: 0 0 toMobile(8);
+        a {
+          span {
+            width: $circle-width;
+            height: $circle-width;
+          }
+        }
+      }
+    }
+  }
+
+  #home-scroll-arrow {
+    display: none;
+  }
+}

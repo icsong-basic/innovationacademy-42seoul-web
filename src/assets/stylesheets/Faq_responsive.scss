@@ -1,0 +1,46 @@
+@media (max-width: #{$mobile-width}) {
+  .faq.max-width-section {
+    padding-right: 0;
+    padding-bottom: toMobile(110);
+    .categories {
+      margin-top: toMobile(24);
+      margin-bottom: toMobile(30);
+      span {
+        height: toMobile(44);
+        border-radius: toMobile(22);
+        padding: toMobile(9) toMobile(18) toMobile(11);
+        margin-right: toMobile(8);
+        margin-bottom: toMobile(10);
+        font-size: toMobile(16);
+        letter-spacing: -#{toMobile(0.51)};
+      }
+    }
+    .qnas {
+      padding-right: toMobile(20);
+      > div {
+        font-size: toMobile(14);
+        letter-spacing: -#{toMobile(0.44)};
+
+        .q {
+          padding: toMobile(16) toMobile(56) toMobile(16) toMobile(20);
+          background-position: calc(100% - #{toMobile(12)}) 50%;
+          background-size: toMobile(28) toMobile(28);
+          background-repeat: no-repeat;
+          opacity: 0.87;
+        }
+        .a {
+          opacity: 0.87;
+          padding: toMobile(28) toMobile(16) toMobile(44);
+          font-size: toMobile(13);
+          line-height: 1.92;
+          letter-spacing: normal;
+        }
+        &.open {
+          .q {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,196 @@
+@media (max-width: 1180px) {
+  .news-page > section.news .grid > div a div.img {
+    width: 100%;
+  }
+
+  .news-page > section.stories {
+    .slick-prev {
+      left: -1rem;
+    }
+    .slick-next {
+      right: -1rem;
+    }
+  }
+
+  .news-page > section.stories p.desc,
+  .news-page > section.news p.desc {
+    height: 46.8px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .news-page > section.stories p.desc,
+  .news-page > section.news p.desc {
+    height: 41.6px;
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  .news-page {
+    > section.title {
+      height: toMobile(224);
+      background-image: url("../images/img-mobile-news-banner.jpg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      h1 {
+        margin-top: toMobile(48);
+        font-size: toMobile(24);
+        line-height: normal;
+        letter-spacing: normal;
+      }
+    }
+
+    > section.stories,
+    > section.news {
+      padding-top: toMobile(28);
+      > h2 {
+        margin: 0;
+        font-size: toMobile(18);
+        line-height: normal;
+        letter-spacing: -#{toMobile(0.57)};
+        margin: 0 0 toMobile(32);
+      }
+      > p {
+        font-size: toMobile(12);
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+      }
+      p {
+        color: #ffffff;
+        &.title {
+          display: -webkit-box;
+          font-size: toMobile(20);
+          line-height: 1.4;
+          letter-spacing: -0.063px;
+          margin: 0 0 1.4rem;
+          max-height: toMobile(56);
+
+          text-overflow: ellipsis;
+          overflow: hidden;
+          -webkit-line-clamp: 2; /* 라인수 */
+          -webkit-box-orient: vertical;
+          word-wrap: break-word;
+          white-space: normal;
+        }
+        &.desc {
+          display: -webkit-box;
+          font-size: toMobile(12);
+          line-height: 1.67;
+          height: toMobile(40);
+          margin: 0;
+        }
+      }
+    }
+
+    > section.stories {
+      .slick-next,
+      .slick-prev {
+        width: toMobile(40);
+        height: toMobile(40);
+        background-image: url("../images/arrow-previous.svg");
+        background-size: contain;
+        z-index: 1;
+        opacity: 0.8;
+        top: toMobile(120);
+      }
+      .slick-prev {
+        left: toMobile(8);
+      }
+      .slick-next {
+        right: toMobile(8);
+      }
+      .slick-slide {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        .story {
+          padding: 0;
+          height: toMobile(470);
+          overflow: hidden;
+          img {
+            width: 100%;
+            height: toMobile(280);
+            object-fit: contain;
+          }
+          > a > div {
+            left: 0;
+            right: 0;
+            top: toMobile(292);
+          }
+        }
+      }
+      .slick-dots {
+        bottom: toMobile(40);
+        li {
+          box-sizing: border-box;
+          width: 6px;
+          height: 6px;
+          margin: 8px;
+          button {
+            &::before {
+              display: none;
+            }
+            background-color: rgba(255, 255, 255, 0.25);
+            border-radius: 50%;
+            width: 6px;
+            height: 6px;
+            padding: 0;
+          }
+          &.slick-active {
+            button {
+              background-color: #fff;
+            }
+          }
+        }
+      }
+    }
+    > section.news {
+      .grid {
+        margin-bottom: toMobile(110);
+        > div {
+          display: block;
+          position: relative;
+          width: 100%;
+          margin-top: toMobile(44);
+          margin-right: 0;
+          &:nth-child(1) {
+            margin-top: 0;
+          }
+          &:nth-child(3n + 3) {
+            margin-right: 0;
+          }
+          &:nth-child(n + 4) {
+            margin-top: toMobile(44);
+          }
+          a {
+            text-decoration: none;
+            div.img {
+              width: 100%;
+              height: toMobile(175);
+              border: solid 1px #3e3e3e;
+              background-position: center;
+              background-size: cover;
+              margin-bottom: toMobile(12);
+            }
+            p.desc {
+              margin: 0 0 toMobile(12);
+            }
+            span.from {
+              font-size: toMobile(14);
+            }
+            &:hover {
+              p.title {
+                color: #ffffff;
+              }
+              p.desc {
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

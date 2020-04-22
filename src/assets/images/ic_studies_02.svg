@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="148px" viewBox="0 0 230 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / ic_studies_02</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="230" height="148"></rect>
+        <linearGradient x1="19.2885526%" y1="49.992564%" x2="67.8173136%" y2="50.007436%" id="linearGradient-3">
+            <stop stop-color="#2DD6BC" offset="0%"></stop>
+            <stop stop-color="#00BABC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="19.2885526%" y1="20.5516495%" x2="67.8173136%" y2="79.4483505%" id="linearGradient-4">
+            <stop stop-color="#2DD6BC" offset="0%"></stop>
+            <stop stop-color="#00BABC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-/-ic_studies_02" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Group-2" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(18.000000, 35.000000)">
+                    <polygon id="Path-8-Copy" fill="url(#linearGradient-3)" points="0 2.5 246 2.5 246 -0.5 0 -0.5"></polygon>
+                    <path d="M122,14 L165,80 L79,80 L122,14 Z M84.5350828,77 L159.464917,77 L122,19.4957085 L84.5350828,77 Z" id="Triangle" fill="url(#linearGradient-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

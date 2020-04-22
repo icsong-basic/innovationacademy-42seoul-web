@@ -1,0 +1,132 @@
+@import "./global.scss";
+
+#fullpage {
+  .section {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .container {
+      max-width: 160rem;
+      padding: 0 2rem;
+      margin: auto;
+      h1 {
+        font-family: Noto Sans KR, sans-serif;
+        font-size: 5.2rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.46;
+        letter-spacing: -0.03rem;
+        margin: 0 0 5rem;
+      }
+      h2 {
+        font-family: Noto Sans KR, sans-serif;
+        font-size: 4.4rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.59;
+        letter-spacing: -0.139rem;
+        color: $mint;
+        margin: 0 0 4.4rem;
+      }
+      p {
+        font-family: Noto Sans KR, sans-serif;
+        font-size: 2.8rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.79;
+        letter-spacing: -0.089rem;
+        margin: 0 0 8rem;
+      }
+    }
+    @media (max-width: 1600px) {
+      .container {
+        max-width: 118rem;
+      }
+    }
+  }
+  .section1 {
+    background-image: url("../images/img-main-01.svg");
+    background-size: auto;
+    .container {
+      img {
+        position: absolute;
+        left: auto;
+        width: 26.8rem;
+        top: 14.7vh;
+      }
+    }
+  }
+  .section2 {
+    background-image: url("../images/img-main-02.jpg");
+  }
+  .section3 {
+    background-image: url("../images/img-main-03.jpg");
+  }
+  .section4 {
+    background-image: url("../images/img-main-04.jpg");
+  }
+  .section5 {
+    background-image: url("../images/img-main-05.jpg");
+    p {
+      margin: 0 0 6.4rem;
+    }
+  }
+}
+
+#fp-nav.fp-right {
+  right: 19.7rem !important;
+  $circle-width: 1.6rem;
+  ul {
+    li:hover a span,
+    li:hover a.active span,
+    li a.active span {
+      width: $circle-width;
+      height: $circle-width;
+      margin: 0;
+    }
+    li {
+      width: $circle-width;
+      height: $circle-width;
+      margin: 0 0 2.4rem;
+      a {
+        span {
+          width: $circle-width;
+          height: $circle-width;
+          margin: 0;
+          top: 0;
+          left: 0;
+          transition: background-color 0.3s;
+          will-change: background-color;
+          background-color: rgba(255, 255, 255, 0.15);
+        }
+      }
+    }
+    li:hover a span,
+    li a.active span {
+      background-color: $mint;
+    }
+  }
+  &.invert ul {
+    li:hover a span,
+    li a.active span {
+      background-color: #ffffff;
+    }
+  }
+}
+
+#home-scroll-arrow {
+  position: fixed;
+  right: 16.1rem;
+  top: calc(50% + 19.2rem);
+  cursor: pointer;
+  will-change: transform;
+  transition: transform 0.3s;
+  &.up {
+    transform: rotate(-180deg);
+  }
+}
+
+@import "./Home_responsive.scss";

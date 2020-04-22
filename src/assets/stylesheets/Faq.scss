@@ -1,0 +1,84 @@
+@import "./global.scss";
+
+.faq {
+  > h1 {
+    margin: 5.6rem 0 6.4rem;
+  }
+  .categories {
+    margin-bottom: 2.2rem;
+    span {
+      display: inline-block;
+      height: 5.6rem;
+      border-radius: 2.8rem;
+      box-sizing: border-box;
+      padding: 1.4rem 2.3rem 1.3rem;
+      margin-right: 0.8rem;
+      margin-bottom: 2.2rem;
+      font-family: Noto Sans KR, sans-serif;
+      font-size: 1.8rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: -0.057rem;
+      line-height: normal;
+      border: 1px solid white;
+      cursor: pointer;
+      user-select: none;
+      &:hover,
+      &.on {
+        background-color: $mint;
+        border-color: $mint;
+      }
+    }
+  }
+  .qnas {
+    > div {
+      cursor: pointer;
+      border: 1px solid white;
+      font-family: Noto Sans KR, sans-serif;
+      font-size: 1.6rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.51px;
+      &:not(:nth-child(1)) {
+        border-top: none;
+      }
+
+      .q {
+        padding: 2.1rem 3.1rem;
+        background-image: url("../images/ic-arrow-fold@2x.png");
+        background-position: calc(100% - 1.6rem) 50%;
+        background-size: 2.8rem 2.8rem;
+        background-repeat: no-repeat;
+      }
+      .a {
+        padding: 6.3rem 4.3rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.79;
+        letter-spacing: normal;
+        display: none;
+        p {
+          margin-bottom: 1em;
+        }
+      }
+      &.open {
+        .q {
+          background-color: #fff;
+          background-image: url("../images/ic-arrow-unfold@2x.png");
+          color: black;
+          font-weight: bold;
+        }
+        .a {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@import "./Faq_responsive.scss";

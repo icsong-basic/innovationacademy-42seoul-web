@@ -1,0 +1,10 @@
+@media (max-width: #{$mobile-width}) {
+  .apply-form-191201 {
+    padding: 1rem;
+    img.logo {
+      width: toMobile(100);
+      margin-bottom: 1em;
+    }
+    font-size: toMobile(14);
+  }
+}

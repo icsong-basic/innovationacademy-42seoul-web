@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="538" height="319" viewBox="0 0 538 319">
+    <defs>
+        <linearGradient id="a" x1="0%" y1="99.57%" y2=".43%">
+            <stop offset="0%" stop-color="#2DD6BC" stop-opacity=".3"/>
+            <stop offset="41.533%" stop-color="#27D2BC"/>
+            <stop offset="100%" stop-color="#00BABC"/>
+        </linearGradient>
+        <linearGradient id="b" x1="0%" y1="99.487%" y2=".513%">
+            <stop offset="0%" stop-color="#2DD6BC" stop-opacity=".3"/>
+            <stop offset="41.533%" stop-color="#27D2BC"/>
+            <stop offset="100%" stop-color="#00BABC"/>
+        </linearGradient>
+        <linearGradient id="c" x1="7.245%" x2="92.755%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#2DD6BC" stop-opacity=".3"/>
+            <stop offset="100%" stop-color="#00BABC"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="url(#a)" d="M239.156 80.648l-4.226 93.657-2.997-.135 4.01-88.87L2.12 318.774 0 316.65 233.062 83.938l-87.241 4.117-.142-2.997 93.477-4.41z"/>
+        <path fill="url(#b)" d="M537.884 0l-2.143 50.473-2.997-.127 1.948-45.913L301.12 237.655l-2.12-2.123L531.599 3.282l-43.96 1.957-.133-2.997L537.884 0z"/>
+        <path fill="url(#c)" d="M529.99 179.318l-2.143 50.473-2.997-.127 1.94-45.705-105.517 115.32-2.213-2.025 104.917-114.666-44.23 1.969-.134-2.997 50.377-2.242z" opacity=".7"/>
+    </g>
+</svg>

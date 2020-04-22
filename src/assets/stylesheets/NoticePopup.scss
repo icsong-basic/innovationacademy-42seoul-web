@@ -1,0 +1,41 @@
+.notice-popup {
+  position: fixed;
+  z-index: 999;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #ffffff;
+  color: #000000;
+
+  font-family: Noto Sans KR, sans-serif;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 2rem;
+
+  .text {
+    padding: 5rem;
+    width: 46rem;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    max-height: calc(100vh - 10rem);
+    overflow: auto;
+    p {
+      margin: 0;
+    }
+  }
+  .buttons {
+    display: flex;
+    button {
+      width: 100%;
+      height: 5.6rem;
+      &.black {
+        background-color: #bdbdbd;
+        color: #000;
+      }
+    }
+  }
+}
+
+@import "./NoticePopup_responsive.scss";

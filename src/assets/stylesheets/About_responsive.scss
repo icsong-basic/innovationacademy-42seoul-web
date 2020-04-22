@@ -1,0 +1,63 @@
+@media screen and (max-width: 1024px) {
+  .about-page {
+    .description {
+      .left {
+        width: 32rem;
+        img {
+          margin-top: 5.55rem;
+          width: 28rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: #{$mobile-width}) {
+  .about-page.max-width-section {
+    padding-left: 0;
+    padding-right: 0;
+    > h1 {
+      padding-left: toMobile(20);
+    }
+    .player {
+      // height: 56.29vw; // 원본 이미지 1208x680
+      margin-bottom: toMobile(32);
+      .play-btn {
+        width: toMobile(36);
+        height: toMobile(36);
+      }
+    }
+    .description {
+      padding-left: toMobile(20);
+      flex-direction: column;
+      .left {
+        display: flex;
+        flex-direction: column-reverse;
+        border-bottom: toMobile(4) solid #fff;
+        width: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        padding-bottom: toMobile(16);
+        margin-bottom: toMobile(40);
+        p {
+          font-size: toMobile(18);
+          line-height: normal;
+          letter-spacing: -#{toMobile(0.57)};
+        }
+        img {
+          margin-top: 0;
+          width: toMobile(152);
+          margin-bottom: toMobile(16);
+        }
+      }
+      .right {
+        opacity: 0.87;
+        padding-right: toMobile(20);
+        font-size: toMobile(14);
+        p {
+          margin-bottom: toMobile(28);
+        }
+      }
+    }
+  }
+}
