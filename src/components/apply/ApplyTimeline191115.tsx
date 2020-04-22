@@ -11,7 +11,7 @@ export default function ApplyTimeline191115() {
             <h2>2기</h2>
             <div className="timeline">
                 <div>
-                    <p className="description">상시<br />온라인 테dsfgsdfg스트</p>
+                    <p className="description">상시<br />온라인 테스트</p>
                     <div className="right-arrow" />
                 </div>
                 <div>
@@ -37,7 +37,7 @@ export default function ApplyTimeline191115() {
                     <div className="right-arrow" />
                 </div>
                 <div>
-                    <p className="description">7.6부터<br />본교육 과정</p>
+                    <p className="description">미정<br />본교육 과정</p>
                 </div>
             </div>
             <h2>3기</h2>
@@ -48,22 +48,22 @@ export default function ApplyTimeline191115() {
                 </div>
                 <div>
                     <div className="half">
-                        <p className="period color-mint">6.19~20</p>
+                        <p className="period color-mint">미정</p>
                         <p className="description">1차 체크인 미팅</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">7.17~18</p>
+                        <p className="period color-mint">미정</p>
                         <p className="description">2차 체크인 미팅</p>
                     </div>
                     <div className="right-arrow" />
                 </div>
                 <div>
                     <div className="half">
-                        <p className="period color-mint">7.6~7.31</p>
+                        <p className="period color-mint">미정</p>
                         <p className="description">1차 1개월 집중교육<br />(La Piscine)</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">8.3~8.28</p>
+                        <p className="period color-mint">미정</p>
                         <p className="description">2차 1개월 집중교육<br />(La Piscine)</p>
                     </div>
                     <div className="right-arrow" />
