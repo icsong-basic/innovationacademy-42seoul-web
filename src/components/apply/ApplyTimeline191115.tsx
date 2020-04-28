@@ -69,7 +69,7 @@ export default function ApplyTimeline191115() {
                     <div className="right-arrow" />
                 </div>
                 <div>
-                    <p className="description">10.5부터<br />본교육 과정</p>
+                    <p className="description">미정<br />본교육 과정</p>
                 </div>
             </div>
         </>
