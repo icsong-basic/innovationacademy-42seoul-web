@@ -37,7 +37,7 @@ export default function ApplyTimeline191115() {
                     <div className="right-arrow" />
                 </div>
                 <div>
-                    <p className="description">20.08.31 ~ <br />본교육 과정</p>
+                    <p className="description">미정 <br />본교육 과정</p>
                 </div>
             </div>
             <h2>3기</h2>
@@ -69,7 +69,7 @@ export default function ApplyTimeline191115() {
                     <div className="right-arrow" />
                 </div>
                 <div>
-                    <p className="description">20.11.02 ~<br />본교육 과정</p>
+                    <p className="description">미정<br />본교육 과정</p>
                 </div>
             </div>
         </>
