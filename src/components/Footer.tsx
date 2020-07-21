@@ -25,7 +25,8 @@ const Footer = ({ style, className, invert = false }: FooterProps) => {
                 <div className="box">
                     <strong>CONTACT</strong>
                     <span>
-                        qna@innovationacademy.kr
+                        qna@innovationacademy.kr <br />
+                        교육운영팀 : 02)6177-2127
                     </span>
                 </div>
                 <div className="box location">
