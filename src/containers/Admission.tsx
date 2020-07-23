@@ -19,7 +19,7 @@ export default function Admission() {
                         <div className="line" />
                         <div>
                             <span>선발 대상</span>
-                            <p>학생, 청년, 구직자 등<br className="only-pc" /> 2020년 1월 1일 기준 민법상 성인 또는 2020년 3월 1일 기준 고졸 이상의 학력자</p>
+                            <p>학생, 청년, 구직자 등<br className="only-pc" /> 교육 시작 시점 기준으로 민법상 성인 또는 고등하교 졸업자 이상의 학력자</p>
                         </div>
                         <div>
                             <span>선발 인원</span>
