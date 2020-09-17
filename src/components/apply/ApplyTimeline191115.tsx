@@ -52,18 +52,18 @@ export default function ApplyTimeline191115() {
                         <p className="description">1차 체크인 미팅</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">20.09.17~20.09.18</p>
+                        <p className="period color-mint">20.09.24~20.09.25</p>
                         <p className="description">2차 체크인 미팅</p>
                     </div>
                     <div className="right-arrow" />
                 </div>
                 <div>
                     <div className="half">
-                        <p className="period color-mint">20.08.31~20.09.25</p>
+                        <p className="period color-mint">20.10.05~20.10.30</p>
                         <p className="description">1차 1개월 집중교육<br />(La Piscine)</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">20.10.05~20.10.30</p>
+                        <p className="period color-mint">20.11.09~20.12.04</p>
                         <p className="description">2차 1개월 집중교육<br />(La Piscine)</p>
                     </div>
                     <div className="right-arrow" />
