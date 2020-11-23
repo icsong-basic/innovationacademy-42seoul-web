@@ -26,18 +26,7 @@ export default function ApplyTimeline191115() {
                         <p className="period color-mint">21.02.11(목), 16:42</p>
                         <p className="description">3차 온라인 신청</p>
                     </div>
-                    <div className="half">
-                        <p className="period color-mint">21.04.29(목), 16:42</p>
-                        <p className="description">4차 온라인 신청</p>
-                    </div>
-                    <div className="half">
-                        <p className="period color-mint">21.06.24(목), 16:42</p>
-                        <p className="description">5차 온라인 신청</p>
-                    </div>
-                    <div className="half">
-                        <p className="period color-mint">21.07.22(목), 16:42</p>
-                        <p className="description">6차 온라인 신청</p>
-                    </div>
+                    
                     <div className="right-arrow" />
                 </div>
                 <div>
@@ -52,18 +41,6 @@ export default function ApplyTimeline191115() {
                     <div className="half">
                         <p className="period color-mint">21.02.25(목)</p>
                         <p className="description">3차 체크인 미팅</p>
-                    </div>
-                    <div className="half">
-                        <p className="period color-mint">21.05.13(목)</p>
-                        <p className="description">4차 체크인 미팅</p>
-                    </div>
-                    <div className="half">
-                        <p className="period color-mint">21.07.08(목)</p>
-                        <p className="description">5차 체크인 미팅</p>
-                    </div>
-                    <div className="half">
-                        <p className="period color-mint">21.08.05(목)</p>
-                        <p className="description">6차 체크인 미팅</p>
                     </div>
                     <div className="right-arrow" />
                 </div>
