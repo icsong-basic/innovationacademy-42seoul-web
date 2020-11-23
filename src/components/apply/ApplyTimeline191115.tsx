@@ -19,8 +19,12 @@ export default function ApplyTimeline191115() {
                         <p className="description">1차 온라인 신청</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">21.01.07(목), 16:42</p>
+                        <p className="period color-mint">21.01.14(목), 16:42</p>
                         <p className="description">2차 온라인 신청</p>
+                    </div>
+                    <div className="half">
+                        <p className="period color-mint">21.02.11(목), 16:42</p>
+                        <p className="description">3차 온라인 신청</p>
                     </div>
                     <div className="right-arrow" />
                 </div>
@@ -33,13 +37,17 @@ export default function ApplyTimeline191115() {
                         <p className="period color-mint">21.01.28(목)</p>
                         <p className="description">2차 체크인 미팅</p>
                     </div>
+                    <div className="half">
+                        <p className="period color-mint">21.02.25(목)</p>
+                        <p className="description">3차 체크인 미팅</p>
+                    </div>
                     <div className="right-arrow" />
                 </div>
                 <div>
                     <p className="description">La Piscine 신청 자격 획득</p>
                 </div>
             </div>
-            <h2>4기</h2>
+            <h2>4기 1개월 집중교육과정(La Piscine)</h2>
             <div className="timeline">
                 <div>
                     <div className="half">
