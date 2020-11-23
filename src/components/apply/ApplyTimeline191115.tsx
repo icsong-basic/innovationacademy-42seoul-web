@@ -18,52 +18,58 @@ export default function ApplyTimeline191115() {
                         <p className="period color-mint">21.01.07(목), 16:42</p>
                         <p className="description">1차 온라인 신청 일시</p>
                     </div>
+                    <br />
                     <div className="half">
                         <p className="period color-mint">21.01.14(목), 16:42</p>
                         <p className="description">2차 온라인 신청 일시</p>
                     </div>
+                    <br />
                     <div className="half">
                         <p className="period color-mint">21.02.11(목), 16:42</p>
                         <p className="description">3차 온라인 신청 일시</p>
                     </div>
+                    <br />
                     <div className="half">
                         <p className="period color-mint">21.04.29(목), 16:42</p>
                         <p className="description">4차 온라인 신청 일시</p>
                     </div>
+                    <br />
                     <div className="half">
                         <p className="period color-mint">21.06.24(목), 16:42</p>
                         <p className="description">5차 온라인 신청 일시</p>
                     </div>
+                    <br />
                     <div className="half">
                         <p className="period color-mint">21.07.22(목), 16:42</p>
                         <p className="description">6차 온라인 신청 일시</p>
                     </div>
+                    <br />
                     <div className="right-arrow" />
                 </div>
                 <div>
                     <div className="half">
                         <p className="period color-mint">21.01.21(목)</p>
-                        <p className="description">1차 미팅 참석 일자<br />(La Piscine)</p>
+                        <p className="description">1차 미팅 참석 일자<br /></p>
                     </div>
                     <div className="half">
                         <p className="period color-mint">21.01.28(목)</p>
-                        <p className="description">2차 미팅 참석 일자<br />(La Piscine)</p>
+                        <p className="description">2차 미팅 참석 일자<br /></p>
                     </div>
                     <div className="half">
                         <p className="period color-mint">21.02.25(목)</p>
-                        <p className="description">3차 미팅 참석 일자<br />(La Piscine)</p>
+                        <p className="description">3차 미팅 참석 일자<br /></p>
                     </div>
                     <div className="half">
                         <p className="period color-mint">21.05.13(목)</p>
-                        <p className="description">4차 미팅 참석 일자<br />(La Piscine)</p>
+                        <p className="description">4차 미팅 참석 일자<br /></p>
                     </div>
                     <div className="half">
                         <p className="period color-mint">21.07.08(목)</p>
-                        <p className="description">5차 미팅 참석 일자<br />(La Piscine)</p>
+                        <p className="description">5차 미팅 참석 일자<br /></p>
                     </div>
                     <div className="half">
                         <p className="period color-mint">21.08.05(목))</p>
-                        <p className="description">6차 미팅 참석 일자<br />(La Piscine)</p>
+                        <p className="description">6차 미팅 참석 일자<br /></p>
                     </div>
                     <div className="right-arrow" />
                 </div>
@@ -76,22 +82,21 @@ export default function ApplyTimeline191115() {
                 <div>
                 <div className="half">
                         <p className="period color-mint">21.02.01(월), 16:42</p>
-                        <p className="description">1차 1개월 집중교육과정(La Piscine) 온라인 신청</p>
+                        <p className="description">1차 La Piscine<br /> 온라인 신청</p>
                 </div>
                 <div className="half">
                         <p className="period color-mint">21.03.08(월), 16:42</p>
-                        <p className="description">2차 1개월 집중교육과정(La Piscine) 온라인 신청</p>
+                        <p className="description">2차 La Piscine<br /> 온라인 신청</p>
                 </div>
                     <div className="right-arrow" />
-                </div>
                 <div>
                     <div className="half">
                         <p className="period color-mint">20.02.15(월)~20.03.12(금)</p>
-                        <p className="description">1차 1개월 집중교육과정(La Piscine) 교육기간</p>
+                        <p className="description">1차 La Piscine 교육기간<br /> 교육기간</p>
                     </div>
                     <div className="half">
                         <p className="period color-mint">20.03.22(월)~20.04.16(금)</p>
-                        <p className="description">2차 1개월 집중교육과정(La Piscine) 교육기간</p>
+                        <p className="description">2차 La Piscine 교육기간</p>
                     </div>
                     <div className="right-arrow" />
                 </div>
