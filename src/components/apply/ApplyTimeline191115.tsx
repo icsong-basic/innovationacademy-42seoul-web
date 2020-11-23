@@ -7,7 +7,7 @@ export default function ApplyTimeline191115() {
                 ※ 42 SEOUL 3기 교육생 모집은 마감되었습니다.<br />
                 ※ 지금 온라인 테스트를 진행하시면 2021년 열리는 체크인 지원이 가능합니다.<br />
             </h2>
-            <h2>2기</h2>
+            <h2>체크인 미팅 일정</h2>
             <div className="timeline">
                 <div>
                     <p className="description">상시<br />온라인 테스트</p>
@@ -15,60 +15,74 @@ export default function ApplyTimeline191115() {
                 </div>
                 <div>
                     <div className="half">
-                        <p className="period color-mint">20.06.11~20.06.12</p>
+                        <p className="period color-mint">21.01.07(목), 16:42</p>
+                        <p className="description">1차 온라인 신청</p>
+                    </div>
+                    <div className="half">
+                        <p className="period color-mint">21.01.07(목), 16:42</p>
+                        <p className="description">2차 온라인 신청</p>
+                    </div>
+                    <div className="right-arrow" />
+                </div>
+                <div>
+                    <div className="half">
+                        <p className="period color-mint">21.01.21(목)</p>
                         <p className="description">1차 체크인 미팅</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">20.07.09~20.07.10</p>
+                        <p className="period color-mint">21.01.28(목)</p>
                         <p className="description">2차 체크인 미팅</p>
                     </div>
                     <div className="right-arrow" />
                 </div>
                 <div>
-                    <div className="half">
-                        <p className="period color-mint">20.06.29~20.07.24</p>
-                        <p className="description">1차 1개월 집중교육<br />(La Piscine)</p>
-                    </div>
-                    <div className="half">
-                        <p className="period color-mint">20.07.27~20.08.21</p>
-                        <p className="description">2차 1개월 집중교육<br />(La Piscine)</p>
-                    </div>
-                    <div className="right-arrow" />
-                </div>
-                <div>
-                    <p className="description">20.09.28 ~ <br />본교육 과정</p>
+                    <p className="description">La Piscine 신청 자격 획득</p>
                 </div>
             </div>
-            <h2>3기</h2>
+            <h2>4기</h2>
             <div className="timeline">
                 <div>
-                    <p className="description">상시<br />온라인 테스트</p>
-                    <div className="right-arrow" />
-                </div>
-                <div>
                     <div className="half">
-                        <p className="period color-mint">20.08.13~20.08.14</p>
-                        <p className="description">1차 체크인 미팅</p>
+                        <p className="period color-mint">21.02.01(월), 16:42</p>
+                        <p className="description">1차 온라인 신청</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">20.09.24~20.09.25</p>
-                        <p className="description">2차 체크인 미팅</p>
+                        <p className="period color-mint">21.03.08(월), 16:42</p>
+                        <p className="description">2차 온라인 신청</p>
                     </div>
                     <div className="right-arrow" />
                 </div>
                 <div>
                     <div className="half">
-                        <p className="period color-mint">20.10.12~20.11.06</p>
-                        <p className="description">1차 1개월 집중교육<br />(La Piscine)</p>
+                        <p className="period color-mint">21.02.15(월)~21.03.12(금)</p>
+                        <p className="description">1차 La Piscine</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">20.11.16~20.12.11</p>
-                        <p className="description">2차 1개월 집중교육<br />(La Piscine)</p>
+                        <p className="period color-mint">21.03.22(월)~21.04.16(금)</p>
+                        <p className="description">2차 La Piscine</p>
                     </div>
                     <div className="right-arrow" />
                 </div>
                 <div>
-                    <p className="description">20.12.21<br />본교육 과정</p>
+                    <div className="half">
+                        <p className="period color-mint">21.05.03(월) ~ (23개월)</p>
+                        <p className="description">본 교육과정</p>
+                    </div>
+                    <div className="half">
+                        <p className="period color-mint">21.05.03(월) ~ (23개월)</p>
+                        <p className="description">본 교육과정</p>
+                    </div>
+                    <div className="right-arrow" />
+                </div>
+                <div>
+                <div className="half">
+                        <p className="period color-mint">21.05.08(토) ~ (23개월)</p>
+                        <p className="description">본 교육과정 오리엔테이션</p>
+                    </div>
+                    <div className="half">
+                        <p className="period color-mint">21.05.08(토) ~ (23개월)</p>
+                        <p className="description">본 교육과정 오리엔테이션</p>
+                    </div>
                 </div>
             </div>
         </>
