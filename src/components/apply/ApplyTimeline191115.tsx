@@ -85,11 +85,11 @@ export default function ApplyTimeline191115() {
                 </div>
                 <div>
                 <div className="half">
-                        <p className="period color-mint">21.05.08(토) ~ (23개월)</p>
+                        <p className="period color-mint">21.05.08(토)</p>
                         <p className="description">본 교육과정 오리엔테이션</p>
                     </div>
                     <div className="half">
-                        <p className="period color-mint">21.05.08(토) ~ (23개월)</p>
+                        <p className="period color-mint">21.05.08(토)</p>
                         <p className="description">본 교육과정 오리엔테이션</p>
                     </div>
                 </div>
